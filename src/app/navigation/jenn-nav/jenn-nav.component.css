@@ -1,0 +1,31 @@
+a {
+  font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  margin-bottom: .4rem;
+  color: #DD0000;
+}
+
+button {
+  border: 0;
+}
+
+img {
+  width: 3rem;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-decoration img {
+  margin-top: -4rem;
+  width: 1rem;
+}
