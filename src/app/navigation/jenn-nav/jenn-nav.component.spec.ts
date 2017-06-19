@@ -23,10 +23,10 @@ describe('JennNavComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it(`should have as title 'JENN LE'`, async(() => {
+  it(`should have as title 'Jenn Le'`, async(() => {
     const fixture = TestBed.createComponent(JennNavComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('JENN LE');
+    expect(app.title).toEqual('Jenn Le');
   }));
 
   it('should render title as well as all the menu options in a tags', async(() => {

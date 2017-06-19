@@ -1,0 +1,19 @@
+.jenn-card {
+  height: 35rem;
+}
+
+/*.collapse.width {
+  height: auto;
+  -webkit-transition: width 0.35s ease;
+  -moz-transition: width 0.35s ease;
+  -o-transtion: width 0.35s ease;
+  transition: width 0.35s ease;
+}*/
+
+#me, #skills {
+  background-color: #DD0000;
+}
+
+#work, #accomplishments {
+  background-color: #000;
+}

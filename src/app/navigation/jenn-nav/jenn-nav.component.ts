@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 
 export class JennNavComponent implements OnInit {
 
-  title = "JENN LE";
+  title = "Jenn Le";
+  // menuOpened: false;
 
   constructor() { }
 
