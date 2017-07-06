@@ -1,0 +1,35 @@
+@mixin transform($arg) {
+  // Safari
+  -webkit-transform: $arg;
+  // Firefox
+  -moz-transform: $arg;
+  // IE
+  -ms-transform: $arg;
+  // Opera
+  -o-transform: $arg;
+  transform: $arg;
+}
+
+@mixin transform-origin($arg) {
+  // Safari
+  -webkit-transform-origin: $arg;
+  // Firefox
+  -moz-transform-origin: $arg;
+  // IE
+  -ms-transform-origin: $arg;
+  // Opera
+  -o-transform-origin: $arg;
+  transform-origin: $arg;
+}
+
+@mixin transition($arg) {
+  // Safari
+  -webkit-transition: $arg;
+  // Firefox
+  -moz-transition: $arg;
+  // IE
+  -ms-transition: $arg;
+  // Opera
+  -o-transition: $arg;
+  transition: $arg;
+}

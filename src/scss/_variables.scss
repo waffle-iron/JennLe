@@ -1,0 +1,31 @@
+// Colors
+
+$red:               #d00 !default;
+$black:             #000 !default;
+$white:             #fff !default;
+
+// Fonts
+
+$base-font:         'Open Sans', sans-serif;
+$header-font:       'Inconsolata', sans-serif;
+
+$base-font-size:    .875rem !default;
+$h1-font-size:      1.5rem !default;
+
+// Formatting
+
+$header-white-space: 7.5rem !default;
+
+$card-margin:       .25rem 1.25rem !default;
+$card-margin-md:    0 .25rem !default;
+$card-width:        15rem !default;
+$card-height:       36rem !default;
+$card-padding:      .8rem 1rem !default;
+
+$button-width:      2.625rem !default;
+$default-button-width:   100% !default;
+
+// Accordian
+$closed:            0 !default;
+$open-width:        50rem !default;
+$open-height:       30rem !default;

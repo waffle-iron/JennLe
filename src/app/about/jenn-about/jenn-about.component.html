@@ -1,14 +1,50 @@
-<div class="container row-1 hidden-sm-down">
-    <div class="jenn-card" id="me">
-      <app-jenn-me-card></app-jenn-me-card>
+<div class="container">
+
+  <div class="row">
+    <div class="jenn-card me-card col-md">
+      <div class="row">
+        <div class="card-content col-md-0" [class.open]="isMeExpanded" [class.col-md-10]="isMeExpanded">
+          <app-jenn-me-card *ngIf="isMeExpanded" id="me"></app-jenn-me-card>
+        </div>
+        <div class="jenn-me-button text-right align-middle col" (click)="collapseOthers(0)">
+          <h1 class="align-middle rotate-md">me</h1>
+        </div>
+      </div>
     </div>
-    <div class="jenn-card" id="work">
-      <app-jenn-work-card></app-jenn-work-card>
+
+    <div class="jenn-card work-card col-md">
+      <div>
+        <div class="card-content col-md-0" [class.open]="isWorkExpanded" [class.col-md-10]="isWorkExpanded">
+          <app-jenn-work-card *ngIf="isWorkExpanded" id="work"></app-jenn-work-card>
+        </div>
+        <div class="jenn-work-button text-right align-middle col-md-2" (click)="collapseOthers(1)">
+          <h1 class="align-middle rotate-md">work</h1>
+        </div>
+      </div>
     </div>
-    <div class="jenn-card" id="skills">
-      <app-jenn-skills-card></app-jenn-skills-card>
+
+    <div class="jenn-card skills-card col-md">
+      <div>
+        <div class="card-content col-md-0" [class.open]="isSkillsExpanded" [class.col-md-10]="isSkillsExpanded">
+          <app-jenn-skills-card *ngIf="isSkillsExpanded" id="skills"></app-jenn-skills-card>
+        </div>
+        <div class="jenn-skills-button text-right align-middle col-md-2" (click)="collapseOthers(2)">
+          <h1 class="align-middle rotate-md">skills</h1>
+        </div>
+      </div>
     </div>
-    <div class="jenn-card" id="accomplishments">
-      <app-jenn-accomplishments-card></app-jenn-accomplishments-card>
+
+    <div class="jenn-card accomplishments-card col-md">
+      <div>
+        <div class="card-content col-md-0" [class.open]="isAccompExpanded" [class.col-md-10]="isAccompExpanded">
+          <app-jenn-accomplishments-card *ngIf="isAccompExpanded" id="accomplishments"></app-jenn-accomplishments-card>
+        </div>
+        <div class="jenn-accomplishments-button text-right align-middle col-md-2" (click)="collapseOthers(3)">
+          <h1 class="align-middle rotate-md">accomplishments</h1>
+        </div>
+      </div>
     </div>
+
+  </div>
+
 </div>

@@ -1,0 +1,52 @@
+// Small
+@media (max-width: 576px) {
+  .collapse {
+    @include transition(all .6s ease-in-out);
+  }
+}
+
+// Medium
+@media (min-width: 768px) {
+
+  // About page
+  .rotate-md {
+    @include transform(translateX(35%) translateY(500%) rotate(-90deg));
+  }
+
+  .jenn-card {
+    height: $card-height;
+    margin: $card-margin-md;
+  }
+
+  .card-content {
+    display: inline-block;
+    float: left;
+    width: $closed;
+    height: $card-height;
+    @include transition(all .6s ease-in-out);
+  }
+
+  .open {
+    width: $open-width;
+  }
+
+  .jenn-me-button, .jenn-skills-button, .jenn-work-button, .jenn-accomplishments-button {
+    display: inline-block;
+    float: right;
+    width: $button-width;
+    height: $card-height;
+    position: fixed;
+  }
+
+}
+
+// Large
+@media (min-width: 992px) {
+
+}
+
+
+// X-Large
+@media (min-width: 1200px) {
+
+}

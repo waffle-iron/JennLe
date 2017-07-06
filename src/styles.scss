@@ -1,0 +1,7 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "scss/variables";
+@import "scss/reboot";
+
+// Make sure it's at the bottom
+@import "scss/mixins";
+@import "scss/utilities";

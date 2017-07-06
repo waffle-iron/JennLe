@@ -14,6 +14,9 @@ import { JennMeCardComponent } from './about/jenn-about/jenn-me-card/jenn-me-car
 import { JennWorkCardComponent } from './about/jenn-about/jenn-work-card/jenn-work-card.component';
 import { JennSkillsCardComponent } from './about/jenn-about/jenn-skills-card/jenn-skills-card.component';
 import { JennAccomplishmentsCardComponent } from './about/jenn-about/jenn-accomplishments-card/jenn-accomplishments-card.component';
+import { JennProjectComponent } from './projects/jenn-project/jenn-project.component';
+import { JennResearchComponent } from './research/jenn-research/jenn-research.component';
+import { JennMiscComponent } from './misc/jenn-misc/jenn-misc.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { JennAccomplishmentsCardComponent } from './about/jenn-about/jenn-accomp
     JennMeCardComponent,
     JennWorkCardComponent,
     JennSkillsCardComponent,
-    JennAccomplishmentsCardComponent
+    JennAccomplishmentsCardComponent,
+    JennProjectComponent,
+    JennResearchComponent,
+    JennMiscComponent
   ],
   imports: [
     AppRoutingModule,
