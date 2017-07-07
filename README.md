@@ -1,3 +1,3 @@
 # Jenn Le
 
-This is the source code for my [website](jennle.com).
+This is the source code for my [website](http://jennle.com/).
