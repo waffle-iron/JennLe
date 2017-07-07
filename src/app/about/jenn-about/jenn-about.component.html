@@ -7,7 +7,9 @@
           <app-jenn-me-card *ngIf="isMeExpanded" id="me"></app-jenn-me-card>
         </div>
         <div class="jenn-me-button text-right align-middle col" (click)="collapseOthers(0)">
-          <h1 class="align-middle rotate-md">me</h1>
+          <div class="rotate-md">
+            <h1 class="align-middle">me</h1>
+          </div>
         </div>
       </div>
     </div>
@@ -18,7 +20,9 @@
           <app-jenn-work-card *ngIf="isWorkExpanded" id="work"></app-jenn-work-card>
         </div>
         <div class="jenn-work-button text-right align-middle col-md-2" (click)="collapseOthers(1)">
-          <h1 class="align-middle rotate-md">work</h1>
+          <div class="rotate-md">
+            <h1 class="align-middle">work</h1>
+          </div>
         </div>
       </div>
     </div>
@@ -29,7 +33,9 @@
           <app-jenn-skills-card *ngIf="isSkillsExpanded" id="skills"></app-jenn-skills-card>
         </div>
         <div class="jenn-skills-button text-right align-middle col-md-2" (click)="collapseOthers(2)">
-          <h1 class="align-middle rotate-md">skills</h1>
+          <div class="rotate-md">
+            <h1 class="align-middle">skills</h1>
+          </div>
         </div>
       </div>
     </div>
@@ -40,7 +46,9 @@
           <app-jenn-accomplishments-card *ngIf="isAccompExpanded" id="accomplishments"></app-jenn-accomplishments-card>
         </div>
         <div class="jenn-accomplishments-button text-right align-middle col-md-2" (click)="collapseOthers(3)">
-          <h1 class="align-middle rotate-md">accomplishments</h1>
+          <div class="rotate-md">
+            <h1 class="align-middle">accomplishments</h1>
+          </div>
         </div>
       </div>
     </div>

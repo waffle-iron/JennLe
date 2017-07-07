@@ -1,12 +1,4 @@
 @import "../../../scss/variables";
-
-h1 {
-  float: right;
-  font-family: $base-font;
-  font-size: $h1-font-size;
-  color: $white;
-}
-
 .jenn-card {
   margin: $card-margin;
 }
@@ -17,6 +9,14 @@ h1 {
 
 .jenn-me-button, .jenn-skills-button, .jenn-work-button, .jenn-accomplishments-button {
   float: right;
+
+  h1 {
+    float: right;
+    font-family: $base-font;
+    font-size: $h1-font-size;
+    color: $white;
+    text-align: right;
+  }
 }
 
 .me-card, .skills-card {
