@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class JennNavComponent implements OnInit {
 
   title = "Jenn Le";
+  isExpanded: boolean;
   // menuOpened: false;
 
   constructor() { }
